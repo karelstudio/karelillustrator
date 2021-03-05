@@ -1,172 +1,73 @@
-body {
-  font-family: "Avenir Next";
-  color:#404146;
-  text-align: center;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KAREL PORTFOLIO</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">KAREL</div>
+      <div class="header-list">
+        <ul>
+          <li><a href="#about-link">About</a></li>
+          <li><a href="#work-link">Projects</a></li>
+          <li><a href="#contact-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
 
-li {
-  list-style: none;
-}
+    <div class="main">
+      <div class="copy-container">
+        <h1>KA-REL<span>.</span></h1>
+        <h2>PORTFOLIO</h2>
+        
+      </div>
+      
+      <div class="about">
+        <h3><a id="about-link">About me</a></h3>
+        <p>Karel is an illustrator and calligrapher based in Indonesia. She loves to play with watercolor and put much efforts on details. Karel also loves to draw animals and flowers which have brilliant colors.</p>
+      </div>
 
-.header {
-  background-color: #142163;
-  color: #fff;
-  height: 90px;
-}
+      <div class="contents">
+        <h3><a id="work-link">Project Illustration Moodboard</a></h3>
+        <div class="contents-item">
+          <img src="C:\Users\user\Desktop\html_lesson\images\A touch of Purple !!!!!!!!!! by judylynn.jpg">
+          <p>Purple Hummingbirds</p>
+        </div>
+        <div class="contents-item">
+          <img src="C:\Users\user\Desktop\html_lesson\images\bryan-hanson-T7BgXyf7JNY-unsplash.jpg">
+          <p>Brown Hummingbirds</p>
+        </div>
+        <div class="contents-item">
+          <img src="C:\Users\user\Desktop\html_lesson\images\chris-charles-9APFPoNb9iw-unsplash.jpg">
+          <p>Blue Hummingbirds</p>
+        </div>
+        
+      </div>
+      
+      <div class="contact-form">
+        <h3 class="contact-title"><a id="contact-link">Contact me</a></h3>
+        <input placeholder="Email (R)">
+        <br>
+        <textarea placeholder="Message (R)"></textarea>
+        <br>
+        <input class="contact-submit" type="submit" value="Send">
+        <p>* Required (R) fields must be filled</p>
+        
+      </div>
+    </div>
 
-.header-logo {
-  float: left;
-  font-size: 30px;
-  font-weight:500px;
-  letter-spacing: 10px;
-  padding: 25px 40px;
-}
-
-.header-list li {
-  float: left;
-  padding: 33px 30px;
-  font-size: 20px;
-}
-
-.header-list a {
-  text-decoration: none;
-  color:#fff;
-}
-
-.copy-container {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.copy-container h1 {
-  font-size: 120px;
-  margin-bottom: 0px;
-  letter-spacing: 10px;
-}
-
-.copy-container h2 {
-  font-size: 40px;
-  font-weight: 100;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.copy-container span {
-  color: #0d2a88;
-}
-
-.copy-container img {
-  height:300px;
-}
-
-.about { 
-  font-size: 28px;
-  height: 260px;
-  background-color: rgb(244, 244, 244);
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-/*.about h3 {
-  padding-top: 80px;
-  padding-bottom: 20px;
-}*/
-
-.about p {
-  padding: 0px 150px;
-  font-size: 20px;
-}
-
-.contents {
-  height: 500px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.contents h3 {
-  font-size: 28px;
-  padding-bottom: 20px;
-}
-
-.contents-item {
-  float: left;
-  width: 33.3%;
-}
-
-.contents-item img{
-  height: 300px;
-  box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
-}
-
-.contents-item p {
-  font-size: 24px;
-  margin-top: 30px;
-}
-
-.contact-form {
-  height: 500px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: rgb(244, 244, 244);
-}
-
-.contact-title {
-  font-size: 28px;
-  padding-bottom: 20px;
-}
-
-input, textarea {
-  width: 800px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding:20px;
-  font-size: 18px;
-  border: 0px;
-  background-color: #ffffff;
-  border-radius: 15px;
-}
-
-::placeholder {
-  font-family: "Avenir Next";
-  color:#7C7D83;
-}
-
-.contact-submit{
-  width: 500px;
-  background-color:#171979;
-  color:#ffffff;
-  font-size: 16px;
-}
-
-.contact-form p{
-  font-size: 14px;
-}
-
-.footer {
-  background-color: #dc9516;
-  color: rgb(0, 0, 0);
-  height: 120px;
-  padding: 40px;
-}
-
-.footer-logo {
-  float: left;
-  font-size: 32px;
-  font-size: 30px;
-  font-weight:700;
-  letter-spacing: 10px;
-}
-
-.footer-list {
-  float: right;
-}
-
-.footer-list li {
-  padding-bottom: 20px;
-}
-
-.footer-list a {
-  text-decoration: none;
-  color:rgb(0, 0, 0);
-}
+    <div class="footer">
+      <div class="footer-logo">KAREL</div>
+      <div class="footer-list">
+        <ul>
+          <li><a href="#about-link">About Karel</a></li>
+          <li><a href="#work-link">Projects</a></li>
+          <li><a href="#contact-link">Contact Karel</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
 
